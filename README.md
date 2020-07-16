@@ -2,9 +2,9 @@
     <img width="60%" alt="Logo LaunchBase" src="./design/logo.png" />
 </p>
 <p align="center">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ejunior01/launchBase">
-<img  alt="licença" src="https://img.shields.io/github/license/ejunior01/launchBase" />
-<img alt="Made by Junior Santos" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ejunior01/launchBase"/>
+<img  alt="licença" src="https://img.shields.io/github/license/ejunior01/launchBase"/>
+<img alt="Made by Junior Santos" src="https://img.shields.io/badge/made%20by-Junior Santos-%237519C1"/>
 <p/>
 
 ## :rocket: INTRODUÇÃO
