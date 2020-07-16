@@ -1,0 +1,60 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/conteudo.css">
+    <title>Cursos</title>
+{% endblock %}
+
+{% block content%}
+    <main>
+        <h1>Cursos Rocketseat</h1>
+        <div class="cursos">
+            <div class="curso" id="starter">
+                <div class="logo">
+                    <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/starter.svg" alt="Logo Starter">
+                </div>
+                <div class="card-info">
+                    <p>Módulos</p>
+                    <p>Free</p>
+                </div>
+            </div>
+            <div class="curso" id="launchbase">
+                <div class="logo">
+                    <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/launchbase.svg" alt="Logo Starter">
+                </div>
+                <div class="card-info">
+                    <p>Módulos</p>
+                    <p>Free</p>
+                </div>
+            </div>
+            <div class="curso" id="gostack">
+                <div class="logo">
+                    <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/gostack.svg" alt="Logo Starter">
+                </div>
+                <div class="card-info">
+                    <p>Módulos</p>
+                    <p>Free</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="modalOverlay">
+        <div class="modal">
+            <a class="modalMaximize">
+                <span class="material-icons">
+                    maximize
+                    </span>
+            </a>
+            <a class="modalClose">
+                <span class="material-icons">
+                    close
+                </span>
+            </a>
+            <div class="modalContent">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="/js/script.js"></script>
+{% endblock %}
