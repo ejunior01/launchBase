@@ -1,0 +1,26 @@
+
+
+.sobre {
+    margin: 35px 0 70px;
+}
+
+h1,
+h2,
+p {
+    margin: 18px 0;
+}
+
+.text h1 {
+    font-size: 24px;
+}
+
+.text h2 {
+    font-size: 20px;
+}
+
+.text p {
+    width: 940px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444;
+} 

@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    font-family: 'Roboto';
+    color: #000;
+}
+header {
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    padding: 30px;
+    color: #000;
+    font-size: 52px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
