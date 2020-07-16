@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="60%" alt="Logo LaunchBase" src="./design/logo.png" />
+    <img width="30%" alt="Logo LaunchBase" src="./design/logo.png" />
 </p>
 <p align="center">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ejunior01/launchBase"/>
