@@ -1,43 +1,23 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/404.css" />
-    <title>Ocorreu um erro</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-          <nav>
-            <li><a href="/"><img src="/img/logo-rocketseat 1.svg" alt="logo-rocketseat"></a></li>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">Sobre</a></li>
-            <li><a href="/courses.html">Cursos</a></li>
-          </nav>
-          <div class="link-contatos">
-            <li><a href="https://discordapp.com/invite/gCRAFhc"  target="_black"><img class="img-header-link" src="/img/discord.svg" alt="Link discord"></a></li>
-            <li><a href="mailto:oi@rocketseat.com.br"><img class="img-header-link" src="/img/mail.svg" alt="Link E-mail"></a></li>
-            <li><a href="tel:+5547992078767"><img class="img-header-link" src="/img/call.svg" alt="Link Telephone"></a></li>
-          </div>
-      </header>
-      <main>
-          <section class="error">
-            <img src="/img/404.svg" alt="Error 404">
-            <h1>&lt;Page not found/&gt;</h1>
-          </section>
-          <section class="return">
-            <p class="return-info">Ei , Acho que a página que você buscou ficou perdida no espaço.
-                Pois a mesma não existe!</p>
-                <div class="button">
-                    <a href="/"><p>Ir para home</p></a>
-                </div>
-          </section>
-      </main>
-      <footer>
-        Rocketseat © 2020 - Todos os direitos reservados
-      </footer>
-    </div>
-  </body>
-</html>
+{% extends "layout.njk" %}
+
+{% block head %}
+  <link rel="stylesheet" href="/css/404.css"/>
+  <title>Ocorreu um erro</title>
+{% endblock head %}
+
+{% block content %}
+  <main>
+    <section class="error">
+      <img src="/img/404.svg" alt="Error 404">
+      <h1>&lt;Page not found/&gt;</h1>
+    </section>
+    <section class="return">
+      <p class="return-info">Ei , Acho que a página que você buscou ficou perdida no espaço. Pois a mesma não existe!</p>
+      <div class="button">
+        <a href="/">
+          <p>Ir para home</p>
+        </a>
+      </div>
+    </section>
+  </main>
+{% endblock content %}

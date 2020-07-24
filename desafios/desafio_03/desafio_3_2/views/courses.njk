@@ -1,73 +1,32 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/courses.css" />
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/courses.css"/>
     <title>Cursos</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav>
-          <li>
-            <a href="/"
-              ><img src="/img/logo-rocketseat 1.svg" alt="logo-rocketseat"
-            /></a>
-          </li>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">Sobre</a></li>
-          <li><a href="#">Cursos</a></li>
-        </nav>
-        <div class="link-contatos">
-          <li>
-            <a href="https://discordapp.com/invite/gCRAFhc" target="_black"
-              ><img
-                class="img-header-link"
-                src="/img/discord.svg"
-                alt="Link discord"
-            /></a>
-          </li>
-          <li>
-            <a href="mailto:oi@rocketseat.com.br"
-              ><img
-                class="img-header-link"
-                src="/img/mail.svg"
-                alt="Link E-mail"
-            /></a>
-          </li>
-          <li>
-            <a href="tel:+5547992078767"
-              ><img
-                class="img-header-link"
-                src="/img/call.svg"
-                alt="Link Telephone"
-            /></a>
-          </li>
-        </div>
-      </header>
-      <main>
-          <h1>&lt;Cursos Rocketseat/&gt;</h1>
-          <section class="cards">
-              <div class="card-courses" id="starter">
-                  <img class="logo" src="/img/logo_starter.svg" alt="">
-                  <p class="text-card-courses">Torne-se um programador desejado no mercado com esses cursos gratuitos</p>
-                  <div class="courses-info">
-                      <div>
-                          <img src="/img/school.svg" alt="">
-                          <p>5 módulos</p>
-                      </div>
-                      <div>
-                          <img src="/img/pig.svg" alt="">
-                          <p>Curso Gratuito</p>
-                      </div>
-                  </div>
-                  <div class="button">
-                      <p>Visualizar</p>
-                  </div>
-              </div>
-              <div class="card-courses" id="launchbase">
+{% endblock head %}
+
+{% block content %}
+    <main>
+        <h1>&lt;Cursos Rocketseat/&gt;</h1>
+        <section class="cards">
+            <div class="card-courses" id="starter">
+                <img class="logo" src="/img/logo_starter.svg" alt="">
+                <p class="text-card-courses">Torne-se um programador desejado no mercado com esses cursos gratuitos</p>
+                <div class="courses-info">
+                    <div>
+                        <img src="/img/school.svg" alt="">
+                        <p>5 módulos</p>
+                    </div>
+                    <div>
+                        <img src="/img/pig.svg" alt="">
+                        <p>Curso Gratuito</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <p>Visualizar</p>
+                </div>
+            </div>
+            <div class="card-courses" id="launchbase">
                 <img class="logo" src="/img/logo_lauchebase.svg" alt="">
                 <p class="text-card-courses">Domine programação do zero e tenha acesso às melhores oportunidades do mercado</p>
                 <div class="courses-info">
@@ -83,10 +42,11 @@
                 <div class="button">
                     <p>Visualizar</p>
                 </div>
-              </div>
-              <div class="card-courses" id="gostack">
+            </div>
+            <div class="card-courses" id="gostack">
                 <img class="logo" src="/img/logo_gostack.svg" alt="">
-                <p class="text-card-courses"> Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+                <p class="text-card-courses">
+                    Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobile</p>
                 <div class="courses-info">
                     <div>
                         <img src="/img/school.svg" alt="">
@@ -100,24 +60,25 @@
                 <div class="button">
                     <p>Visualizar</p>
                 </div>
-              </div>
-          </section>
-      </main>
-      <footer>
-        Rocketseat © 2020 - Todos os direitos reservados
-      </footer>
-    </div>
+            </div>
+        </section>
+    </main>
+{% endblock content %}
+
+{% block modal %}
     <div class="modal-overlay">
         <div class="modal">
             <div class="button-modal">
                 <img class="button-maximize" src="/img/maximize.svg" alt="">
-                <img class="button-close"  src="/img/close.svg" alt="">
+                <img class="button-close" src="/img/close.svg" alt="">
             </div>
             <div class="modal-iframe">
                 <iframe src="" frameborder="0"></iframe>
             </div>
         </div>
     </div>
+{% endblock modal %}
+
+{% block scripts %}
     <script src="/js/scripts.js"></script>
-  </body>
-</html>
+{% endblock scripts %}

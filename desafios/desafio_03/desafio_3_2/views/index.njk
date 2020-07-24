@@ -1,62 +1,37 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Home</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-          <nav>
-            <li><a href="/"><img src="/img/logo-rocketseat 1.svg" alt="logo-rocketseat"></a></li>
-            <li><a href="/">Home</a></li>
-            <li><a href="about">Sobre</a></li>
-            <li><a href="courses">Cursos</a></li>
-          </nav>
-          <div class="link-contatos">
-            <li><a href="https://discordapp.com/invite/gCRAFhc"  target="_black"><img class="img-header-link" src="/img/discord.svg" alt="Link discord"></a></li>
-            <li><a href="mailto:oi@rocketseat.com.br"><img class="img-header-link" src="/img/mail.svg" alt="Link E-mail"></a></li>
-            <li><a href="tel:+5547992078767"><img class="img-header-link" src="/img/call.svg" alt="Link Telephone"></a></li>
-          </div>
-      </header>
-      <main>
-        <section class="section-content-primary" >
-            <div class="primary-content">
-                <h1>
-                    &lt;As melhores tecnologias em programação, direto ao ponto e do jeito certo./&gt;
-                </h1>
-                <p>
-                    No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de alguém que te leve na direção certa.
-                </p>
-            </div>
-            <div class="primary-img">
-                <img src="/img/rocket-launch.svg" alt="rocket launch">
-            </div>
-        </section>
-        <section class="section-content-secondary" >
-            <div>
-                <img src="/img/globe.svg" alt="globe">
-            </div>
-            <div>
-                <h2>
-                    &lt;As mesmas tecnologias utilizadas por empresas como:/&gt;
-                </h2>
-                <p>
-                    <span>
-                        Nubank, Netflix, Uber, Instagram e Airbnb
-                    </span>
-                </p>
-                <p>
-                    Imagine você dominando as mesmas tecnologias adotadas pelos melhores times do mundo, construindo aplicações de alta performance e se destacando entre os maiores programadores.
-                </p>
-            </div>
-        </section>
-      </main>
-      <footer>
-        Rocketseat © 2020 - Todos os direitos reservados
-      </footer>
-    </div>
-  </body>
-</html>
+{% extends "layout.njk" %}
+
+{% block content %}
+  <main>
+    <section class="section-content-primary">
+      <div class="primary-content">
+        <h1>
+          &lt;As melhores tecnologias em programação, direto ao ponto e do jeito certo./&gt;
+        </h1>
+        <p>
+          No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de alguém que te leve na direção certa.
+        </p>
+      </div>
+      <div class="primary-img">
+        <img src="/img/rocket-launch.svg" alt="rocket launch">
+      </div>
+    </section>
+    <section class="section-content-secondary">
+      <div>
+        <img src="/img/globe.svg" alt="globe">
+      </div>
+      <div>
+        <h2>
+          &lt;As mesmas tecnologias utilizadas por empresas como:/&gt;
+        </h2>
+        <p>
+          <span>
+            Nubank, Netflix, Uber, Instagram e Airbnb
+          </span>
+        </p>
+        <p>
+          Imagine você dominando as mesmas tecnologias adotadas pelos melhores times do mundo, construindo aplicações de alta performance e se destacando entre os maiores programadores.
+        </p>
+      </div>
+    </section>
+  </main>
+{% endblock content %}
