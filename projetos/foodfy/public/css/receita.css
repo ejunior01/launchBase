@@ -12,10 +12,6 @@
     margin-bottom: 3.9%;
 }
 
-.recipes .recipe-img img {
-    object-fit: contain;
-}
-
 .recipes .recipe-content {
     text-align: center;
     margin-bottom: 5%;
