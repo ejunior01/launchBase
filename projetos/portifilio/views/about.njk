@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <section id="wrapper">
+        <img src="{{about.avatar_url}}" alt="Imagem de {{about.name}}">
+        <h1>{{about.name}}</h1>
+        <h2>{{about.role}}</h2>
+        <p>{{about.description}}
+        </p>
+    </section>
+    <nav class="link link-footer">
+        {% for link in about.links %}
+            <a href="{{link.url}}" target="_black">{{link.name}}</a>
+        {% endfor %}
+    </nav>
+{% endblock content %}

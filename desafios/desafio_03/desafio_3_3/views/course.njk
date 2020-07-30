@@ -1,0 +1,21 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/courses.css"/>
+    <title>{{course.name}}</title>
+{% endblock head %}
+
+{% block content %}
+    <main>
+        <h1>&lt;Curso {{course.name}}/&gt;</h1>
+        <section class="ifram-site">
+                <div class="card-courses" id="{{course.name}}">
+                    <iframe src="https://rocketseat.com.br/{{course.id}}" frameborder="0"></iframe>
+                </div>
+        </section>
+    </main>
+{% endblock content %}
+
+{% block scripts %}
+    <script src="/js/scripts.js"></script>
+{% endblock scripts %}

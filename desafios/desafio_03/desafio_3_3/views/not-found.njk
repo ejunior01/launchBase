@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <link rel="stylesheet" href="/css/404.css"/>
+  <title>Ocorreu um erro</title>
+{% endblock head %}
+
+{% block content %}
+  <main>
+    <section class="error">
+      <img src="/img/404.svg" alt="Error 404">
+      <h1>&lt;Page not found/&gt;</h1>
+    </section>
+    <section class="return">
+      <p class="return-info">Ei , Acho que a página que você buscou ficou perdida no espaço. Pois a mesma não existe!</p>
+      <div class="button">
+        <a href="/">
+          <p>Ir para home</p>
+        </a>
+      </div>
+    </section>
+  </main>
+{% endblock content %}
