@@ -9,7 +9,7 @@
 
 ## :rocket: INTRODUÇÃO
 
-Repositório de acompanhamento dos projetos e desafios referentes ao LaunchBase o Bootcamp da [Rocketseat](https://rocketseat.com.br/).
+Repositório de acompanhamento dos projetos e desafios referentes ao Bootcamp LaunchBase da [Rocketseat](https://rocketseat.com.br/).
 
 ## :rocket: SUMÁRIO
 
