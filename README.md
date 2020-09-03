@@ -21,12 +21,17 @@ Repositório de acompanhamento dos projetos e desafios referentes ao Bootcamp La
 
 - [Foodfy](https://github.com/ejunior01/launchBase/tree/master/projetos/foodfy)
 - [Portifilio](https://github.com/ejunior01/launchBase/tree/master/projetos/portifilio)
+- [Gym](https://github.com/ejunior01/launchBase/tree/master/projetos/gym)
 
 ### :trophy: Desafios
 
 - [Desafios do Módulo 1](https://github.com/ejunior01/launchBase/tree/master/desafios/desafio_01)
 - [Desafios do Módulo 2](https://github.com/ejunior01/launchBase/tree/master/desafios/desafio_02)
 - [Desafios do Módulo 3](https://github.com/ejunior01/launchBase/tree/master/desafios/desafio_03)
+
+
+---
+
 
 ### :pencil: Licença
 
