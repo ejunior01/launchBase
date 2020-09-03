@@ -15,7 +15,7 @@ Repositório de acompanhamento dos projetos e desafios referentes ao Bootcamp La
 
 - **[Projetos](https://github.com/ejunior01/launchBase/tree/master/projetos)**
 - **[Desafios](https://github.com/ejunior01/launchBase/tree/master/desafios)**
-- **[Licença]()**
+- **[Licença](https://github.com/ejunior01/launchBase/blob/master/LICENSE)**
 
 ### :trophy:Projetos
 
